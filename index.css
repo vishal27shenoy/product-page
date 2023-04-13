@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Source+Code+Pro&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  * {
+    font-size: 5px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  * {
+    font-size: 15px;
+  }
+}
+.navbar_container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f5;
+  height: 8rem;
+}
+.navbar_container .left_navbar_container {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.navbar_container .left_navbar_container img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 2rem;
+}
+.navbar_container .right_navbar_contaiiner {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.navbar_container .right_navbar_contaiiner button {
+  height: 3rem;
+  width: 6rem;
+  background-color: rgb(81, 234, 81);
+  border: solid grey 1px;
+  font-weight: 700;
+  color: #f1f3f5;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+
+.main_body_container {
+  background: url("./firstimg.png");
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 4/2;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_body_container p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.main_second_container {
+  background: url("./second.png");
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  aspect-ratio: 2560/400;
+}
+
+.main_third_container {
+  background: url("./third.jpg");
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  aspect-ratio: 1480/1371;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 10px;
+  }
+  .main_second_container {
+    background: url("./second.png");
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-width: 400px) {
+  * {
+    font-size: 5px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  * {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,50 @@
+$white:#f1f3f5;
+$green:rgb(81, 234, 81);
+$black:black;
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    // background-color:$black;
+}
+@mixin displayFlexAlign {
+    display: flex;
+    align-items: center;
+  }
+@mixin displayFlexJustify {
+    display: flex;
+    justify-content: center;
+}
+@mixin displayFlexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@mixin displayFlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    * {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    * {
+      font-size: 5px;
+      
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    * {
+      font-size: 15px;
+    }
+  }
+  
